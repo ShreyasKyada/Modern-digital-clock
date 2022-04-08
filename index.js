@@ -47,6 +47,7 @@ setInterval(() => {
     .map((char) => {
       return char;
     });
+
   const timer = document.getElementsByClassName("timer");
   for (let i = 0; i < 6; i++) {
     timer[i].style.marginTop = -(arr[i] * slideDistance) + "px";
