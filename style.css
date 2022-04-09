@@ -26,17 +26,22 @@
 }
 
 .clock {
-  font-size: 40px;
   display: flex;
   text-align: center;
   position: relative;
-  height: 146px;
   background-color: #1e1e1e;
-  padding: 14px 20px;
+  height: 146px;
   width: 100%;
+  font-size: 40px;
+  padding: 14px 20px;
   border-radius: 18px;
-  color: rgba(90, 90, 90, 0.274);
+  color: #5a5a5a46;
   line-height: 120px;
+}
+
+.active {
+  font-size: 110px;
+  color: white !important;
 }
 
 .clock p {
@@ -54,11 +59,6 @@
   color: white;
   display: flex;
   align-items: center;
-}
-
-.active {
-  font-size: 110px;
-  color: white !important;
 }
 
 @media screen and (max-width: 600px) {
