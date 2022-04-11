@@ -27,7 +27,6 @@
 .clock {
   display: flex;
   text-align: center;
-  position: relative;
   background-color: #1e1e1e;
   height: 146px;
   width: 100%;
